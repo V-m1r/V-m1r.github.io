@@ -216,7 +216,7 @@ async function main() {
       const watch = getWatch();
         
       deepAR = await deepar.initialize({
-        licenseKey: "352e69b9f4d55ad7f451ccd80570165f4a752f6647efe4aecd10c0a3e10f96c21f45505012db1f28",
+        licenseKey: "2d85659ad05ee8f60f035865f8b76cb675929390b95a3fd2a05f5157f45bcb741ae1d508d14fc09c",
         canvas,
         effect: watch.path,
         additionalOptions: {
