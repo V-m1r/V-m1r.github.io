@@ -303,7 +303,7 @@ async function main() {
 
   function getWatch(){
     const url = new URL(window.location.href);
-    const watchId = url.searchParams.get('watchId') ?? effects[0].watchId;
+    const watchId =  effects[12].watchId;
     return effects.find(watch => watch.watchId == watchId);
   }
 
